@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 110px;
   padding: 0;
   color: #000;
 }
@@ -43,9 +43,9 @@ body {
 
 .hero img {
   position: absolute;
-  width: 270px;
-  margin-top: -160px;
-  margin-left: 50px;
+  width: 290px;
+  margin-top: -155px;
+  margin-left: 63px;
 }
 
 .heroText {
@@ -80,4 +80,35 @@ body {
   background-color: #fff;
   color: #000;
   border: 2px solid #fff;
+}
+
+.quote img {
+  width: 190px;
+  margin-top: -6px;
+  margin-left: 183px;
+} 
+
+.quoteText i {
+  font-size: 30pt;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 65px;
+}
+
+.quoteText img {
+  width: 120px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 60px;
+  border: 1px solid #000;
+  border-radius: 200px;
+}
+
+.quoteText q {
+  position: absolute;
+  width: 220px;
+  margin-top: 170px;
+  margin-left: 10px;
+  text-align: center;
+  color: #5e3414;
 }
