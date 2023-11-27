@@ -5,45 +5,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
   <title>Lawgis Advocacia</title>
 </head>
 <body>
   <header>
     <div class="logo">
-      <h1>Lawgis </h1>
-      <i class="fa-solid fa-scale-unbalanced-flip"></i>
-      <h1>Advocacy</h1>
+      <h1>Lawgis<br>Advocacia</h1>
+      <i class="fa-solid fa-chess-knight"></i>
     </div>
+
+    <nav>
+      <ul class="menu">
+        <a href="#" class="menuItem"><li>Home</li></a>
+        <a href="#" class="menuItem"><li>Sobre</li></a>
+        <a href="#" class="menuItem"><li>Visão Jurídica</li></a>
+        <a href="#" class="menuItem"><li>Contato</li></a>
+      </ul>
+    </nav>
   </header>
 
   <main>
     <section class="hero">
       <div class="heroText">
-        <h2>Meet the best lawyers at our agency</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>Você merece o melhor. Para isso existe nosso time de advogados.</h2>
 
-        <div class="buttonZone">
-          <input type="button" value="Read More">
-          <input type="button" value="Contact Us">
-        </div>
+        <a href="#">
+          <button>Saiba Mais <i class="fa-solid fa-arrow-right"></i></button>
+        </a>
       </div>
 
-      <img src="img/heroImg.png" alt="a picture of a men in a suit">
+      <img src="img/heroImage.jpg" alt="imagem principal com peças de xadrez em uma representação dramática">
     </section>
 
-    <section class="quote">
-      <div class="quoteText">
-        <i class="fa-solid fa-quote-left"></i>
-        <img src="img/quoteUser.png" alt="women in a elegant suit">
+    <section class="services">
+      <h2>Atuação em uma gama de questões jurídicas</h2>
+      
+      <div class="servicesGrid">
+        <article class="serviceCard">
+          <img src="img/grid1.jpg" alt="">
 
-        <q>
-          <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam dolore exercitationem inventore</em>
-        </q>
+          <div class="serviceCard_desc">
+            <h2>Lei Corporativa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <a href="#">Saiba Mais ></a>
+          </div>
+        </article>
+
+        <article class="serviceCard">
+          <img src="img/grid2.jpg" alt="">
+
+          <div class="serviceCard_desc">
+            <h2>Lei da Familia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <a href="#">Saiba Mais ></a>
+          </div>
+        </article>
+
+        <article class="serviceCard">
+          <img src="img/grid3.jpg" alt="">
+
+          <div class="serviceCard_desc">
+            <h2>Lei de Assentamento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <a href="#">Saiba Mais ></a>
+          </div>
+        </article>
       </div>
-
-      <img src="img/quoteImg.png" alt="">
     </section>
   </main>
 </body>

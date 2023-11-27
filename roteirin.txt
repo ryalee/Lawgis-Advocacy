@@ -3,3 +3,9 @@ paleta de cores:
 #211c3b -> azulzão elegÂncia pura aff
 #fff -> branquin de lei
 #2d9471 -> um verde pica dms
+
+Deep Blue: #001F3F
+Rich Gold: #FFD700
+Subtle Gray: #A9A9A9
+Creamy White: #F5F5F5
+Burgundy Red: #800000

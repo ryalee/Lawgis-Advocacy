@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inter:wght@300;400;500;600&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&family=Montserrat+Alternates:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -6,109 +6,82 @@
 }
 
 body {
-  background-color: #fff;
-  font-family: 'Playfair Display', serif;
+  background: #000;
+  color: #f5f5f5;
+  font-family: 'Forum', serif;
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-  margin-left: 110px;
-  padding: 0;
-  color: #000;
+  font-family: 'Cinzel Decorative', serif;
 }
 
 .logo h1 {
-  position: absolute;
-}
-
-.logo h1:last-child {
-  margin-top: 50px;
-  margin-left: 40px;
+  font-size: 15pt;
+  margin-left: 26px;
 }
 
 .logo i {
-  margin-top: 50px;
-  margin-left: -20px;
-  font-size: 34px;
-  color: #994b4f;
-}
-
-.hero {
-  background-color: #000;
-  margin-top: 40px;
-  padding: 40px 20px;
-}
-
-.hero img {
+  font-size: 25pt;
   position: absolute;
-  width: 290px;
-  margin-top: -155px;
-  margin-left: 63px;
+  margin-top: -45px;
+  margin-left: -10px;
 }
 
-.heroText {
-  color: #fff;
-  width: 140px;
-  font-size: 8pt;
-}
-
-.heroText h2 {
-  width: 200px;
-}
-
-.buttonZone {
-  width: 170px;
-  padding: 10px;
-  margin-left: -15px;
+header {
+  margin: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.buttonZone input {
-  padding: 8px 4px;
+.menu {
+  margin-top: 85px;
+  margin-left: -380px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }
 
-.buttonZone input:first-child {
-  background-color: #000;
-  color: #fff;
-  border: 2px solid #fff;
+.menuItem {
+  color: #f5f5f5;
+  font-size: 15pt;
+  padding-left: 10px;
+  margin: 0 10px;
+  list-style: none;
+  text-decoration: none;
 }
 
-.buttonZone input:last-child {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #fff;
+.hero {
+  margin-top: 75px;
 }
 
-.quote img {
-  width: 190px;
-  margin-top: -6px;
-  margin-left: 183px;
-} 
-
-.quoteText i {
-  font-size: 30pt;
+.heroText {
+  font-family: 'Montserrat Alternates';
   position: absolute;
   margin-top: 25px;
-  margin-left: 65px;
+  margin-left: 20px;
 }
 
-.quoteText img {
-  width: 120px;
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 60px;
-  border: 1px solid #000;
-  border-radius: 200px;
+.heroText h2 {
+  font-size: 14pt;
 }
 
-.quoteText q {
-  position: absolute;
-  width: 220px;
-  margin-top: 170px;
-  margin-left: 10px;
-  text-align: center;
-  color: #5e3414;
+.heroText button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.hero img {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.serviceCard img{
+  width: 70%;
 }
